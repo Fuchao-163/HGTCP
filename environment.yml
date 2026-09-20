@@ -1,0 +1,16 @@
+name: hgtcp
+channels:
+  - pyg
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch=2.4
+  - pytorch-cuda=12.4
+  - pyg=2.6
+  - pytorch-scatter
+  - pytorch-sparse
+  - pip
+  - pip:
+      - -r requirements.txt

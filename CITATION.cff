@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the HGTCP paper."
+title: "HGTCP: Hierarchical Graph Transformer with Cross-level Propagation"
+type: software
+authors:
+  - family-names: Fu
+    given-names: Chao
+  - family-names: Liu
+    given-names: Guannan
+  - family-names: Wu
+    given-names: Junjie
