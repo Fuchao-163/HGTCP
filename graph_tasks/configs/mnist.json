@@ -1,0 +1,33 @@
+{
+  "dataset": "mnist",
+  "task": "classification",
+  "model": {
+    "alpha": 0.3,
+    "clusters": 8,
+    "dropout": 0.1,
+    "ffn_depth": 2,
+    "global_layers": 1,
+    "graph_pooling": "mean",
+    "heads": 4,
+    "hidden": 56,
+    "hpde_level_offset": 1,
+    "local_layers": 5,
+    "normalization": "batch",
+    "train_eps": true,
+    "use_cluster_size_bias": true
+  },
+  "training": {
+    "batch_size": 64,
+    "contrastive_weight": 0.1,
+    "cpu_threads": 4,
+    "epochs": 300,
+    "grad_clip": 1.0,
+    "lr": 0.001,
+    "min_lr": 0.00001,
+    "num_workers": 2,
+    "optimizer": "adamw",
+    "scheduler": "warmup_cosine",
+    "warmup_epochs": 10,
+    "weight_decay": 0.00001
+  }
+}
